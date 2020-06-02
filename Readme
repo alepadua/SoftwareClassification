@@ -38,3 +38,5 @@ Have an incident response capability to coordinate response to vulnerability rep
 
     Have a policy that addresses vulnerability disclosure and remediation, and implement the processes needed to support that policy.
     Have a security response playbook to handle a generic reported vulnerability, a report of zero-days, a vulnerability being exploited in the wild, and a major ongoing incident involving multiple parties.
+    
+    https://nexwebsites.com/blog/how-to-mitigate-risk-of-software-vulnerabilities/

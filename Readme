@@ -1,0 +1,40 @@
+3.2 O NSH 1 é aplicável quando se necessita de confiança na operação correta do sistema ouequipamento, porém sua utilização está prevista para ocorrer em ambiente em que as ameaças àsegurança estejam bem controladas e a ocorrência de eventuais problemas de interoperabilidadenão é visto como fator importante.3.2 O NSH 1 é aplicável quando se necessita de confiança na operação correta do sistema ouequipamento, porém sua utilização está prevista para ocorrer em ambiente em que as ameaças àsegurança estejam bem controladas e a ocorrência de eventuais problemas de interoperabilidadenão é visto como fator importante.
+3.3 No NSH 1 a avaliação é feita com profundidade básica, a partir do depósito de amostras doobjeto de homologação e baseada no fornecimento, pela parte interessada, de documentaçãobásica sobre o objeto de homologação. Consiste de testes de funcionalidades, de acordo com asespecificações da parte interessada e da avaliação da documentação fornecida. Para este nível deavaliação, não é necessário o depósito de códigos-fonte.
+3.4 O NSH 2 é aplicável quando se necessita de confiança na operação correta do sistema ouequipamento e sua utilização está prevista para ocorrer em ambiente em que as ameaças àsegurança   e   a   ocorrência   de   eventuais   problemas   de   interoperabilidade   são   vistos   comorelevantes.
+3.5 No NSH 2 a avaliação é feita com profundidade moderada, a partir do depósito de amostrasdo objeto de homologação e baseada no fornecimento, pela parte interessada, de informações deprojeto, resultados de testes já realizados e depósito de partes de códigos-fonte.
+3.6 O NSH 3 é aplicável quando se necessita de confiança na operação correta do sistema ouequipamento e sua utilização está prevista para ocorrer em ambiente em que as ameaças àsegurança ou problemas de interoperabilidade são vistos como críticos.
+3.7 No NSH 3 a avaliação é feita com profundidade alta, a partir do depósito de amostras doobjeto de homologação e baseada no fornecimento, pela parte interessada, de informações maisdetalhadas de projeto, resultados de testes já realizados, depósito de partes de códigos-fonte ecomprovação da utilização de práticas seguras no seu desenvolvimento e produção.
+
+
+Test Executable Code to Identify Vulnerabilities and Verify Compliance with Security Requirements
+
+Help identify vulnerabilities before software is released so they can be corrected before release, which prevents exploitation. Using automated methods lowers the effort and resources needed to detect vulnerabilities. Executable code is binaries, directly executed bytecode, directly executed source code, and any other form of code an organization deems as executable.
+
+Determine if executable code testing should be performed and, if so, which types should be used.
+
+Design the tests, perform the testing, and document the results.
+
+    Perform robust functional testing of security features.
+    Integrate dynamic vulnerability testing into the project's automated test suite.
+    Incorporate tests for previously reported vulnerabilities into the project's automated test suite to ensure that errors are not reintroduced.
+    Use automated fuzz testing tools to find issues with input handling by native code.
+    Use penetration testing to simulate how an attacker might attempt to compromise the software only in high-risk scenarios if resources are available.
+    Use automated tools to identify and remediate documented and verified unsafe software practices on a continuous basis as executable code is checked into the code repository.
+    Identify and document the root cause of each discovered issue.
+    Document lessons learned from code testing in a knowledge base that developers can access and search.
+
+Identify and Confirm Vulnerabilities on an Ongoing Basis
+
+Help ensure vulnerabilities are identified more quickly so they can be remediated more quickly, reducing the window of opportunity for attackers.
+
+Gather information from consumers and public sources on potential vulnerabilities in the software and any third-party components the software uses, and investigate all credible reports.
+
+    Establish a vulnerability response program, and make it easy for security researchers to learn about your program and report possible vulnerabilities.
+    Monitor vulnerability databases, security mailing lists, and other sources of vulnerability reports through manual or automated means.
+
+Periodically review, analyze, and/or test the software's code to identify previously undetected vulnerabilities. Configure the toolchain to perform automated code analysis and testing on a regular basis.
+
+Have an incident response capability to coordinate response to vulnerability reports.
+
+    Have a policy that addresses vulnerability disclosure and remediation, and implement the processes needed to support that policy.
+    Have a security response playbook to handle a generic reported vulnerability, a report of zero-days, a vulnerability being exploited in the wild, and a major ongoing incident involving multiple parties.
